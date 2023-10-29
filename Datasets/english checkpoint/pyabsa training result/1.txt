@@ -1,0 +1,39 @@
+base model - https://huggingface.co/allenai/tk-instruct-base-def-pos
+#finetuned model - https://huggingface.co/kevinscaria/joint_tk-instruct-base-def-pos-neg-neut-combined
+
+text generative model
+https://huggingface.co/docs/transformers/v4.30.0/main_classes/text_generation
+
+to get the generated text probability score
+https://github.com/huggingface/transformers/issues/10012
+https://discuss.huggingface.co/t/announcement-generation-get-probabilities-for-generated-output/30075/27
+
+training batch size = 8 GPU P100 [16 GB gpu memory, 13 GB Ram]
+prediction batch size=16
+
+
+applying on pyabsa English model checkpoint annotation hospital review data - 
+
+w&b - polished-smoke-18
+
+training data 16956
+validation data 3239
+testing data 1000
+
+Epoch	Training Loss	Validation Loss
+1	0.081400	0.062203
+2	0.048500	0.049270
+3	0.039200	0.038363
+4	0.031800	0.037504
+
+
+Train Precision:  0.9516791241183282
+Train Recall:  0.9584393553859203
+Train F1:  0.9550472769531456
+Test Precision:  0.9533479692645445
+Test Recall:  0.9540461369461736
+Test F1:  0.953696925329429
+UnseenTest Precision:  0.9549444119368051
+UnseenTest Recall:  0.9538281706604325
+UnseenTest F1:  0.9543859649122807
+
