@@ -1,10 +1,8 @@
-@software
-{ 
+@article{ 
   Amir_Khan_My_Masters_Research_Thesis_Work_2023,
   author = {Amir Khan, Indian Institute of Technology, Jodhpur},
   month = {December},
-  title = {{Advancing Healthcare Quality Assessment: Fine-Grained Aspect-Based Sentiment Analysis of Patient Reviews for Hospital Service Quality }},
-  url = {https://github.com/github-linguist/linguist},
-  version = {0.0.1},
+  title = {{Advancing Healthcare Quality Assessment, Fine-Grained Aspect-Based Sentiment Analysis of Patient Reviews for Hospital Service Quality }},
+  volume = {1},
   year = {2023}
 }
