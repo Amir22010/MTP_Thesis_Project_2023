@@ -51,6 +51,9 @@ Sentiment analysis involves the extraction of opinions, emotions, and attitudes 
 ### 4.6 Model Evaluation
 - Comprehensive evaluation using precision, recall, and F1 scores on different datasets.
 
+### 4.7 Demo Test Result
+![Test](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 ### 4.7 Results on Training, Validation, and Test Data
 - Detailed evaluation results on training, validation, and test data.
 
