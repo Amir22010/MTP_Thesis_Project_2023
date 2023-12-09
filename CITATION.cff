@@ -1,8 +1,10 @@
-@article{ 
-  Amir_Khan_My_Masters_Research_Thesis_Work_2023,
-  author = {Amir Khan, Indian Institute of Technology, Jodhpur},
-  month = {December},
-  title = {{Advancing Healthcare Quality Assessment, Fine-Grained Aspect-Based Sentiment Analysis of Patient Reviews for Hospital Service Quality }},
-  volume = {1},
-  year = {2023}
-}
+cff-version: 1.2.0
+message: "Amir_Khan_My_Masters_Research_Thesis_Work_2023, Indian Institue of Technology, Jodhpur"
+authors:
+- family-names: "Khan"
+  given-names: "Amir"
+title: "Advancing Healthcare Quality Assessment: Fine-Grained Aspect-Based Sentiment Analysis of Patient Reviews for Hospital Service Quality "
+version: 0.0.1
+date-released: 2023-12-09
+year: 2023
+url: "https://huggingface.co/spaces/amir22010/HospitalReviewAspectSentimentExtraction"
